@@ -42,9 +42,9 @@ security:
 
     # role_hierarchy allow us to categorize role permission
     # ROLE_ALLOWED_TO_SWITCH let us switch the logged in user to another user
-    # To use it just add "?_switch_user=pipo.atmane+3@gmail.com" in the url we would like to access
+    # To use it just add "?_switch_user=new_user+3@gmail.com" in the url we would like to access
     # Be careful with the "+ sign" which represent a space in URLS.
-    # To use a "+ sign" in URL we have to replace it with the url-encoded plus "%2B"
+    # To use a "+ sign" in an URL we have to replace it with the url-encoded plus "%2B"
     # To exit just use "?_switch_user=_exit" to any URL.
     role_hierarchy:
         ROLE_ADMIN: [ROLE_MANAGE_GENUS, ROLE_ALLOWED_TO_SWITCH]
