@@ -22,6 +22,6 @@ AppBundle\Entity\SubFamily:
 
 AppBundle\Entity\User:
     user_{1..10}:
-        email: pipo.atmane+<current()>@gmail.com
-        plainPassword: P@ssw0rd
+        email: new.user+<current()>@gmail.com
+        plainPassword: iliketurtle
         roles: ['ROLE_ADMIN']
